@@ -1,0 +1,76 @@
+ .description-container {
+  background-color:#d44dc8;
+  background-image: url('../images//gigbackground.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+   background-size: contain;
+   width: 100wh;
+}
+
+.description {
+  display: flex;
+  color: #ffffff;
+  min-height: 100vh;
+  margin-left: 290px;
+}
+
+.intro-text {
+  max-width: 600px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.greeting {
+  font-size: 2.5rem;
+  color: #ffeb3b; /* Yellowish text */
+  margin: 0;
+  font-family: 'Dancing Script', cursive; /* Example of a handwriting-like font */
+  font-style: normal;
+  white-space: nowrap; 
+  overflow: hidden; 
+  animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: #ffeb3b; }
+}
+
+
+.name {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+.profession {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin: 20px 0;
+}
+
+.bio {
+  font-size: 1.3rem;
+  color: #ffffff;
+  font-family: 'public sans';
+  width: 400px;
+  text-align: justify;
+}
+
+
+.profile-img {
+  margin: 0; 
+}
+
+.profile-img img {
+  display: block;
+  margin-top: 69px;
+  height: 500px;
+}
+

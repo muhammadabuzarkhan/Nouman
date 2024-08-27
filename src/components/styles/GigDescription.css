@@ -1,0 +1,115 @@
+
+.gig-component{
+  background-color:  #d44dc8;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/gigbackground.png') ;
+  background-repeat: no-repeat;
+  background-position: center;
+   background-size: contain;
+   
+
+}
+
+.gig-description {
+    padding: 10px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin-left: 250px;
+  }
+
+  .gig{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 70px;
+  }
+
+
+  .gig-img{
+    margin-top: -50px;
+    height: 100px;
+  }
+  .gig-img img{
+    width:300px;
+    height: 240px;
+  }
+  .gig-header{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 260px;
+    margin-left: 180px;
+    margin-top: -20px;
+    background-color: #bd41b2;
+  }
+  
+  .gig-header h2 {
+    font-size: 1.0rem;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  
+  .gig-services {
+    list-style-type: disc;
+    margin: 5px 0;
+    padding-left: 20px;
+    line-height: 1.6;
+    width: 420px;
+
+  }
+  
+  .gig-services li {
+    font-size: 12px;
+    font-family: 'public sans';
+    text-align: justify;
+    width: 400px;
+
+  }
+  .footer-gig{
+    width: 400px;
+    height: 180px;
+    border-radius: 20px;
+    background-color:#bd41b2;
+    margin-top: -20px;
+    }
+  
+  
+    .gig-footer {
+      margin-top: -60px; 
+      display: flex; 
+      align-items: center; 
+      min-height: 200px; 
+      padding: 20px;
+    }
+    
+    .gig-footer p {
+      width: 380px;
+      text-align: justify;
+      font-size: 12px; 
+      line-height: 1.5; 
+      margin: 0;
+      padding: 12px; 
+    }
+    
+    .gig-footer-img{
+        margin: auto;
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        gap: 10px 50px; 
+        margin-top: 80px;
+        margin-left: 100px;
+      }
+      
+     
+    .gig-footer-img img{
+      width: 90px;
+      height: 80px;
+      margin-left: 30px;
+
+    }
+
+ 
